@@ -1,0 +1,92 @@
+# =====================================================================
+# Smart Rider HMI - Project .gitignore
+# =====================================================================
+
+# --- Android Build & Cache ---
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/kotlinc.xml
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystores & Signing Keys
+*.jks
+*.keystore
+signing.properties
+
+# Android Output Binaries
+*.apk
+*.aab
+
+# --- Embedded / ESP32 / PlatformIO / Arduino ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+esp32-firmware/build/
+esp32-firmware/.pio/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.hex
+
+# --- Python / Simulator & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDEs & Editors ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# --- OS & Temporary Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+*.log
